@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: Roboto,sans-serif;
+    font-weight: 500;
+    background-color: #1F2028;
+    color: #BFC3D9;
+}
+body {
+    font-size: 1rem;
+}
+.section-main .container .row:nth-child(1) {
+    justify-content: center;
+    align-items: center;
+}
+.section-main .container .row ,.section-two .container .row{
+    flex-direction: column;
+}
+a:hover {
+    text-decoration: none;
+}
+.logo {
+    max-width: 15%;
+}
